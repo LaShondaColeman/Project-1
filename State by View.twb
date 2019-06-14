@@ -1,0 +1,954 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0417.1429                               -->
+<workbook original-version='18.1' source-build='2019.1.3 (20191.19.0417.1429)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='afcars_state_data_tables_08thru17 (2)' inline='true' name='federated.079o9s409tppe3191bhy616nkpy2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='afcars_state_data_tables_08thru17 (2)' name='excel-direct.1ym6x3l0u3ebgc17vkr1i08j00x3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/GBTC406011ur/Documents/afcars_state_data_tables_08thru17 (2).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1ym6x3l0u3ebgc17vkr1i08j00x3' name='Served' table='[Served$]' type='table'>
+          <columns gridOrigin='A1:K5:no:A1:K5:0' header='yes' outcome='2'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='real' name='FY 2008' ordinal='1' />
+            <column datatype='real' name='FY 2009' ordinal='2' />
+            <column datatype='real' name='FY 2010' ordinal='3' />
+            <column datatype='real' name='FY 2011' ordinal='4' />
+            <column datatype='real' name='FY 2012' ordinal='5' />
+            <column datatype='real' name='FY 2013' ordinal='6' />
+            <column datatype='real' name='FY 2014' ordinal='7' />
+            <column datatype='real' name='FY 2015' ordinal='8' />
+            <column datatype='real' name='FY 2016' ordinal='9' />
+            <column datatype='real' name='FY 2017' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2008]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2008</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2009]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2009</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2010]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2010</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2011]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2011</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2012]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2012</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2013]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2013</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2014]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2014</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2015]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2015</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2016]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2016</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FY 2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FY 2017]</local-name>
+            <parent-name>[Served]</parent-name>
+            <remote-alias>FY 2017</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Served]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K5:no:A1:K5:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Fy 2008' datatype='real' name='[FY 2008]' role='dimension' type='quantitative' />
+      <column caption='Fy 2009' datatype='real' name='[FY 2009]' role='dimension' type='quantitative' />
+      <column caption='Fy 2010' datatype='real' name='[FY 2010]' role='dimension' type='quantitative' />
+      <column caption='Fy 2011' datatype='real' name='[FY 2011]' role='dimension' type='quantitative' />
+      <column caption='Fy 2012' datatype='real' name='[FY 2012]' role='dimension' type='quantitative' />
+      <column caption='Fy 2013' datatype='real' name='[FY 2013]' role='dimension' type='quantitative' />
+      <column caption='Fy 2014' datatype='real' name='[FY 2014]' role='dimension' type='quantitative' />
+      <column caption='Fy 2015' datatype='real' name='[FY 2015]' role='dimension' type='quantitative' />
+      <column caption='Fy 2016' datatype='real' name='[FY 2016]' role='dimension' type='quantitative' />
+      <column caption='Fy 2017' datatype='real' name='[FY 2017]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;Marlyand&quot;' value='&quot;Maryland&quot;' />
+        </semantic-values>
+      </column>
+      <column-instance column='[State]' derivation='CountD' name='[ctd:State:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.5' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[ctd:State:qk]' type='shape'>
+            <map to='circle'>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Total&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;Marlyand&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;Virginia&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:State:nk]' type='shape'>
+            <map to='circle'>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Total&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;Marlyand&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;Virginia&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:State:nk]' type='palette'>
+            <map to='#466f9d'>
+              <bucket>&quot;Virginia&quot;</bucket>
+            </map>
+            <map to='#91b3d7'>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+            </map>
+            <map to='#ed444a'>
+              <bucket>&quot;Marlyand&quot;</bucket>
+            </map>
+            <map to='#f0d6d7'>
+              <bucket>&quot;Total&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='State' />
+        <param name='target' value='Sheet 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='DMV Comparison'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontname='Times New Roman' fontsize='16'>Numbers of Children Served in Foster Care, by State</run>
+            <run fontalignment='1' fontcolor='#4e79a7' fontname='Times New Roman' fontsize='16'>Æ         </run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#4e79a7' fontname='Times New Roman' fontsize='16'>Æ        </run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Times New Roman' fontsize='16'>Æ </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Times New Roman' fontsize='16'>FY 2008 -FY 2017</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Times New Roman' fontsize='16'>Æ </run>
+            <run fontalignment='1'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='afcars_state_data_tables_08thru17 (2)' name='federated.079o9s409tppe3191bhy616nkpy2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.079o9s409tppe3191bhy616nkpy2'>
+            <column caption='Fy 2008' datatype='real' name='[FY 2008]' role='dimension' type='quantitative' />
+            <column caption='Fy 2009' datatype='real' name='[FY 2009]' role='dimension' type='quantitative' />
+            <column caption='Fy 2010' datatype='real' name='[FY 2010]' role='dimension' type='quantitative' />
+            <column caption='Fy 2011' datatype='real' name='[FY 2011]' role='dimension' type='quantitative' />
+            <column caption='Fy 2012' datatype='real' name='[FY 2012]' role='dimension' type='quantitative' />
+            <column caption='Fy 2013' datatype='real' name='[FY 2013]' role='dimension' type='quantitative' />
+            <column caption='Fy 2014' datatype='real' name='[FY 2014]' role='dimension' type='quantitative' />
+            <column caption='Fy 2015' datatype='real' name='[FY 2015]' role='dimension' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Marlyand&quot;' value='&quot;Maryland&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[FY 2008]' derivation='None' name='[none:FY 2008:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2009]' derivation='None' name='[none:FY 2009:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2010]' derivation='None' name='[none:FY 2010:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2011]' derivation='None' name='[none:FY 2011:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2012]' derivation='None' name='[none:FY 2012:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2013]' derivation='None' name='[none:FY 2013:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2014]' derivation='None' name='[none:FY 2014:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2015]' derivation='None' name='[none:FY 2015:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;District of Columbia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Marlyand&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Virginia&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2010:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2011:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2012:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2013:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2014:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2015:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk]</rows>
+        <cols>([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2010:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2011:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2012:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2013:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2014:qk] + [federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2015:qk]))))))</cols>
+      </table>
+      <simple-id uuid='{1119F7A9-3017-4A4A-9C3D-ABD8966DB821}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontname='Times New Roman' fontsize='16'>Numbers of Children Served in Foster Care, by State</run>
+            <run fontalignment='1' fontcolor='#4e79a7' fontname='Times New Roman' fontsize='16'>Æ         </run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#4e79a7' fontname='Times New Roman' fontsize='16'>Æ        </run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Times New Roman' fontsize='16'>Æ </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Times New Roman' fontsize='16'>FY 2008 -FY 2017</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Times New Roman' fontsize='16'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='afcars_state_data_tables_08thru17 (2)' name='federated.079o9s409tppe3191bhy616nkpy2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.079o9s409tppe3191bhy616nkpy2'>
+            <column caption='Fy 2008' datatype='real' name='[FY 2008]' role='dimension' type='quantitative' />
+            <column caption='Fy 2009' datatype='real' name='[FY 2009]' role='dimension' type='quantitative' />
+            <column caption='Fy 2010' datatype='real' name='[FY 2010]' role='dimension' type='quantitative' />
+            <column caption='Fy 2011' datatype='real' name='[FY 2011]' role='dimension' type='quantitative' />
+            <column caption='Fy 2012' datatype='real' name='[FY 2012]' role='dimension' type='quantitative' />
+            <column caption='Fy 2013' datatype='real' name='[FY 2013]' role='dimension' type='quantitative' />
+            <column caption='Fy 2014' datatype='real' name='[FY 2014]' role='dimension' type='quantitative' />
+            <column caption='Fy 2015' datatype='real' name='[FY 2015]' role='dimension' type='quantitative' />
+            <column caption='Fy 2016' datatype='real' name='[FY 2016]' role='dimension' type='quantitative' />
+            <column caption='Fy 2017' datatype='real' name='[FY 2017]' role='dimension' type='quantitative' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Marlyand&quot;' value='&quot;Maryland&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[FY 2008]' derivation='None' name='[none:FY 2008:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2009]' derivation='None' name='[none:FY 2009:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2010]' derivation='None' name='[none:FY 2010:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2011]' derivation='None' name='[none:FY 2011:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2012]' derivation='None' name='[none:FY 2012:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2013]' derivation='None' name='[none:FY 2013:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2014]' derivation='None' name='[none:FY 2014:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2015]' derivation='None' name='[none:FY 2015:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2016]' derivation='None' name='[none:FY 2016:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FY 2017]' derivation='None' name='[none:FY 2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Virginia&quot;</bucket>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+              <bucket>&quot;Marlyand&quot;</bucket>
+              <bucket>&quot;Total&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[sum:Number of Records:qk]' value='#00007f' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' value='#55aaff' />
+            <format attr='font-weight' data-class='subtotal' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' value='bold' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2010:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2011:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2012:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2013:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2014:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2015:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2016:qk]' value='#aaffff' />
+            <format attr='background-color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2017:qk]' value='#aaffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' value='#00007f' />
+            <format attr='font-family' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' value='Times New Roman' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[sum:Number of Records:qk]' value='#00007f' />
+            <format attr='font-family' field='[federated.079o9s409tppe3191bhy616nkpy2].[sum:Number of Records:qk]' value='Times New Roman' />
+            <format attr='font-family' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk]' value='Tableau Book' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk]' value='#00007f' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2010:qk]' value='#00007f' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2011:qk]' value='#00007f' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2012:qk]' value='#00007f' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2013:qk]' value='#00007f' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2014:qk]' value='#00007f' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2015:qk]' value='#00007f' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2016:qk]' value='#00007f' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2017:qk]' value='#00007f' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='color' value='#75a1c7' />
+            <format attr='background-color' value='#55aaff' />
+            <format attr='border-color' value='#a0cbe8' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='color' value='#4e79a7' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk]' value='#00007f' />
+            <format attr='font-family' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk]' value='Times New Roman' />
+            <format attr='color' field='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk]' value='#00007f' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2010:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2011:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2012:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2013:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2014:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2015:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2016:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2017:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk] * [federated.079o9s409tppe3191bhy616nkpy2].[sum:Number of Records:qk])</rows>
+        <cols>([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2010:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2011:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2012:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2013:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2014:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2015:qk] + ([federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2016:qk] + [federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2017:qk])))))))))</cols>
+      </table>
+      <simple-id uuid='{DCA582AE-597D-44DA-A920-A3BD95C8864E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='DMV Comparison'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2010:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2011:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2012:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2013:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2014:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2015:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9EAC7F67-4371-4652-9AB2-B4E2369C4CC9}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.079o9s409tppe3191bhy616nkpy2].[none:State:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[:Measure Names]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[ctd:State:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2008:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2009:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2010:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2011:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2012:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2013:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2014:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2015:qk]</field>
+            <field>[federated.079o9s409tppe3191bhy616nkpy2].[none:FY 2016:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AAC282E3-07A9-44F0-9B0C-993DA84F03DE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='DMV Comparison' width='192'>
+      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
+      T2vdEH3t/wdIxSVWuxRmXQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
